@@ -3,7 +3,7 @@ import React from 'react';
 const LeftSideNav = () => {
     return (
         <div>
-            <h1>Left Side nav</h1>
+            <h2>Left Side nav</h2>
         </div>
     );
 };
