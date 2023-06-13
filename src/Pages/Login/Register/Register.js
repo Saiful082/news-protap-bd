@@ -5,10 +5,15 @@ import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
 
+
+
 const Register = () => {
+    
     const [error, setError] = useState('');
     const [accepted, setAccepted] =  useState(false);
     const {createUser, updateUserProfile, verifyEmail} = useContext(AuthContext);
+    
+  
 
 
         const handleSubmit = event => {
